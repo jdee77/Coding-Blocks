@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio Data Form</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body{
+            font-family: 'Roboto', 'sans-serif';
+        }
+    </style>
+</head>
+<body>
+    <h1>BIO DATA</h1>
+    <form action="#" method="GET">
+        <fieldset>
+            <legend>PERSONAL INFORMATION</legend>
+
+            <!--input for user name -->
+            <label for="fName">First Name: </label>
+            <input id="fName" type="text" placeholder="First Name" required>
+            <label for="lName">Last Name: </label>
+            <input id="lName" type="text" placeholder="Last Name" required>
+            <br><br>
+
+            <!--input for GENDER -->
+            Gender : 
+            <br>
+            <label for="male" name="gender">Male: </label>
+            <input id="male" type="radio" name="gender">
+            <label for="female">Female: </label>
+            <input id="female" type="radio" name="gender">
+            <label for="others">Other: </label>
+            <input id="others" type="radio" name="gender">
+            <br><br>
+
+            <!--input for date of birth-->
+            <label for="dob">Date of Birth: </label>
+            <input id="dob" type="date" required>
+            <br><br>
+
+            <!--input for email id-->
+            <label for="email">E-Mail:</label>
+            <input id="email" type="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <!--input for phone number -->
+            <label for="phone">Phone:</label>
+            <input id="phone" type="tel" maxlength="10" placeholder="+91">
+            <br><br>
+
+            <!--input for user height-->
+            <label for="height">Height:</label>
+            <input id="height" type="number" min="0" placeholder="Height in feet">
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>EDUCATION</legend>
+            
+            <!--input for school name-->
+            <label for="sName">School Name: </label>
+            <input id="sName" type="text" placeholder="School Name">
+            <br><br>
+
+            <!--input for class-->
+            <label for="class">Class: </label>
+            <input id="class" type="number" max="10" min="1" placeholder="class">
+            <br><br>
+
+            <!--input for stream-->
+            <label for="stream">Stream</label>
+            <select id="stream">
+                <option>Stream</option>
+                <option>Science</option>
+                <option>Humanities</option>
+                <option>Commerce</option>
+                <option>Engineering</option>
+                <option>Medical</option>
+                <option>Law</option>
+                
+            </select>
+            <br><br>
+
+            <!--input fot marksheet-->
+            <label for="marksheet">Marksheer: </label>
+            <input id="markdheet" type="file">
+            <br>
+        </fieldset>
+        <br>
+
+        <!--submit the input data-->
+        <input type="submit">
+    </form>
+</body>
+</html>
