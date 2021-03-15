@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-weight: bold;
+}
+
+/*Home Section*/
+#home {
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+}
+.homeDetails button {
+    background-color: blueviolet;
+}
+.homeTitle {
+   font-size: 60px;
+}
+
+.homeTitleName {
+    color: blueviolet;
+}
+
+.homeImage {
+    text-align: center;
+}
+
+.homeImage img{
+    width: 300px;
+}
+
+.socialHandler a {
+    color: black;
+    font-size: 40px;
+    margin: 8px;
+}
+
+
+/*About Section*/
+#about {
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.aboutImage {
+    text-align: center;
+}
+.aboutImage img {
+    text-align: center;
+    width: 300px;
+    text-align: center;
+}
+
+.aboutDetails {
+    width: 400px;
+    text-align: left;
+}
+
+.aboutDetails h1{
+    color: blueviolet;
+}
+
+/*skills section*/
+#skill {
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+    font-weight: 700;
+}
+
+#skill h1 {
+    margin: 30px;
+    color: blueviolet;
+}
+
+.skillName {
+    text-align: left;
+    list-style: none;
+    height: 25px;
+    width: 30;
+    background-color: #ddd;
+    margin: 5px;
+    border-radius: 3px;
+    ;
+}
+.skillName i {
+    color: blueviolet;
+    margin: 5px;
+}
+
+.skillImage {
+    text-align: center;
+}
+.skillImage img {
+    width: 350px;
+    border: 2px solid violet;
+}
+/*work section*/
+#work {
+    width: 100vw;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+    padding: 30px;
+    text-align: center;
+    color: blueviolet;
+}
+
+#work h1 {
+    margin: 20px;
+}
+.card {
+    margin: auto;
+    text-align: center;
+    height: 250px;
+    width: 300px;
+}
+
+.prImage {
+    height: 200px;
+    width: 270px;
+}
+
+/*contact section*/
+#contact {
+    width: 100vw;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+    text-align: center;
+}
+#contact h1 {
+    color: palevioletred;
+    text-align: center;
+}
+.contact input {
+    height: 30px;
+    width: 30vw;
+    margin: 8px;
+    border-radius: 3px;
+}
+
+/*footer section*/
+footer {
+    text-align: center;
+}
+
+
+
+
